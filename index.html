@@ -1,12 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
-</head>
-<body>
-  <p>Hello, World!</p>
-</body>
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      #jb-container {
+        width: 940px;
+        margin: 10px auto;
+        padding: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      #jb-header {
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      #jb-content {
+        width: 25%;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-right: 3.5%;
+        float: left;
+        border: 1px solid #bcbcbc;
+      }
+      #jb-sidebar {
+        width: 260px;
+        padding: 20px;
+        margin-bottom: 20px;
+        float: right;
+        border: 1px solid #bcbcbc;
+      }
+      #jb-footer {
+        clear: both;
+        padding: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      @media ( max-width: 480px ) {
+        #jb-container {
+          width: auto;
+        }
+        #jb-content {
+          float: none;
+          width: auto;
+        }
+        #jb-sidebar {
+          float: none;
+          width: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="jb-container">
+      <div id="jb-header">
+        <h1>SSO 메인화면</h1>
+      </div>
+      <div id="jb-content">
+        <h2>그룹웨어</h2>
+        <p></p>
+      </div>
+       <div id="jb-content">
+        <h2>HR</h2>
+        <p></p>
+      </div>
+      <div id="jb-content">
+        <h2>TOPS</h2>
+        <p></p>
+      </div>
+      <div id="jb-content">
+        <h2>Smartsystem</h2>
+        <p></p>
+      </div>
+       <div id="jb-content">
+        <h2>Tshop</h2>
+        <p></p>
+      </div>
+      <div id="jb-content">
+        <h2>TOCS</h2>
+        <p></p>
+      </div>
+      <div id="jb-footer">
+        
+      </div>
+    </div>
+  </body>
 </html>
