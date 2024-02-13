@@ -5,51 +5,48 @@
     <title>CSS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-      #jb-container {
-        width: 940px;
-        margin: 10px auto;
-        padding: 20px;
-        border: 1px solid #bcbcbc;
-      }
-      #jb-header {
-        padding: 20px;
-        margin-bottom: 20px;
-        border: 1px solid #bcbcbc;
-      }
-      #jb-content {
-        width: 25%;
-        padding: 20px;
-        margin-bottom: 20px;
-        margin-right: 3.5%;
-        float: left;
-        border: 1px solid #bcbcbc;
-      }
-      #jb-sidebar {
-        width: 260px;
-        padding: 20px;
-        margin-bottom: 20px;
-        float: right;
-        border: 1px solid #bcbcbc;
-      }
-      #jb-footer {
-        clear: both;
-        padding: 20px;
-        border: 1px solid #bcbcbc;
-      }
-      @media ( max-width: 480px ) {
-        #jb-container {
-          width: auto;
-        }
-        #jb-content {
-          float: none;
-          width: auto;
-        }
-        #jb-sidebar {
-          float: none;
-          width: auto;
-        }
-      }
-    </style>
+  #jb-container {
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #bcbcbc;
+  }
+  #jb-header {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #bcbcbc;
+  }
+  #jb-content {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #bcbcbc;
+  }
+  #jb-sidebar {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #bcbcbc;
+  }
+  #jb-footer {
+    padding: 20px;
+    border: 1px solid #bcbcbc;
+  }
+  @media ( min-width: 481px ) {
+    #jb-container {
+      width: 940px;
+    }
+    #jb-content {
+      width: 25%;
+      float: left;
+      margin-right : 3.5%
+    }
+    #jb-sidebar {
+      width: 260px;
+      float: right;
+    }
+    #jb-footer {
+      clear: both;
+    }
+  }
+</style>
   </head>
   <body>
     <div id="jb-container">
